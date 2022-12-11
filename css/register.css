@@ -1,0 +1,18 @@
+select {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1em;
+  color: rgb(0, 0, 0);
+  background-image: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  width: 16rem;
+  height: max-content;
+  padding: 2px;
+  align-content: center;
+}
+.form-input {
+  width: 16rem;
+}

@@ -1,0 +1,27 @@
+select {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1em;
+  color: rgb(0, 0, 0);
+  background-image: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  width: 12rem;
+  height: max-content;
+  padding: 2px;
+  align-content: center;
+}
+#reset {
+  color: white !important;
+  text-decoration: none;
+}
+.job-about p {
+  /* overflow: scroll; */
+  max-width: 100ch;
+  max-height: 8ch;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  /* white-space: nowrap; */
+}
